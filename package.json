@@ -1,0 +1,35 @@
+{
+  "name": "worst-web-app",
+  "version": "1.0.0",
+  "description": "⚠️ **ВНИМАНИЕ**: Это приложение содержит **намеренные уязвимости** для демонстрации работы WAF (Web Application Firewall). **Не используйте в продакшене!**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "tsc && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donexdoc/worst-web-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/donexdoc/worst-web-app/issues"
+  },
+  "homepage": "https://github.com/donexdoc/worst-web-app#readme",
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.3",
+    "typescript": "^5.9.3"
+  }
+}
